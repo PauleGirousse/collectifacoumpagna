@@ -1,0 +1,30 @@
+header {
+  background-color: $tertiary-color-light;
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    // border-bottom: 2px $tertiary-color-light;
+  }
+  li {
+    margin: 25px;
+    a {
+      color: $primary-color-dark;
+      text-decoration: none;
+      &:hover {
+        color: $secondary-color-dark;
+      }
+    }
+  }
+}

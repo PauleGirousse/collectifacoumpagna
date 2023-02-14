@@ -1,0 +1,22 @@
+// main {
+//   background-image: url("../../Assets/tronc_mots.png");
+// }
+main {
+  margin: auto 50px;
+}
+.container-acoumpagna {
+  img {
+    width: 50%;
+    height: 100px;
+    margin: 0 25%;
+  }
+}
+h1 {
+  text-align: center;
+}
+.container-objectifs {
+  display: flex;
+  p {
+    text-align: center;
+  }
+}
